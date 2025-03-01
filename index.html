@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocScanner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./images/scanner.png" alt="Scanner Logo">
+            <a class="name">DocScanner</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Reviews">Reviews</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
+                <li id="userDisplay">
+                    <a href="login.html" id="login-link">Login</a>
+                    <div id="user-dropdown" style="display: none;">
+                        <span id="username"></span>
+                        <ul class="dropdown">
+                            <li><a href="#" id="logout">Logout</a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                </li>
+                <li><a href="/profile">Profile</a></li>
+                <li><a href="/scan">Scan</a></li>
+
+            </ul>
+        </nav>
+        <div class="menu-toggle">☰</div>
+    </div>
+
+    <header class="section_container header-container" id="Home">
+        <div class="header_img">
+            <img src="./images/header-img.webp" alt="header">
+        </div>
+        <div class="header-content">
+            <h1>Scan, Store & Access <span>Easy Document Management</span></h1>
+            <p class="section-content">Document Scanner and PDF Creator website – an advanced scanner tool for better
+                document management.</p>
+            <div class="header-btn">
+                <button class="btn">Get Scan Free</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="features" id="Features">
+        <div class="feature-container">
+            <div class="feature-text">
+                <h4>SCAN DOCUMENTS IN HIGH QUALITY</h4>
+                <h2>Scan Document</h2>
+                <p>Now scan your document with a far superior quality without taking the help of a Xerox machine.
+                    All you need is a smartphone, and you are ready to go. This app provides you with a lot of
+                    Scanning options like ID Card, Document, Book, Photo, QR Scanner, and OCR Text.
+                </p>
+                <h3>Key Features:</h3>
+                <ul>
+                    <li><span class="green-arrow">➜</span> Various Scan Modes - ID Card, Document, Book, QR Scanner, and
+                        OCR Text.</li>
+                    <li><span class="green-arrow">➜</span> Perfect shot - Grid mode, Spirit Level to get the perfect
+                        click of the document.</li>
+                    <li><span class="green-arrow">➜</span> Low to High to Custom Scan Quality.</li>
+                </ul>
+            </div>
+            <div class="feature-img">
+                <img src="./images/feature-img1.png" alt="Scanning Feature">
+            </div>
+        </div>
+
+        <div class="feature-container">
+            <div class="feature-text">
+                <h4>APPLY VARIOUS COLOUR FILTERS ON DOCUMENTS</h4>
+                <h2>Color Filter</h2>
+                <p>This website comes with various color filters which will help you to choose the perfect color
+                    combination for documents. You can also adjust the intensity of the color filters. Filters like
+                    Original color(Magic color), B&W, etc provides you with a variety of options to choose from.
+                </p>
+                <h3>Key Features:</h3>
+                <ul>
+                    <li><span class="green-arrow">➜</span> 9 Color filters which come in day to day use.</li>
+                    <li><span class="green-arrow">➜</span> Options to further adjust the color filters.</li>
+                    <li><span class="green-arrow">➜</span> Color and Color 1 can be used as magic color filters.</li>
+                </ul>
+            </div>
+            <div class="feature-img">
+                <img src="./images/feature-img2.png" alt="Scanning Feature">
+            </div>
+        </div>
+
+        <div class="feature-container">
+            <div class="feature-text">
+                <h4>SIGNATURE ON DOCUMENTS</h4>
+                <h2>Original Signature in Documents</h2>
+                <p>Now you can directly put your original signature on digital Document. You can Scan your signature
+                    through the App’s camera and put directly on a document. You can also import your existing signature
+                    through the gallery and can put it on a document. There are also a lot of editing options like
+                    Darken, Color, Opacity, Blend, Flip, etc.
+                </p>
+                <h3>Key Features:</h3>
+                <ul>
+                    <li><span class="green-arrow">➜</span> Get your Signatures scanned through the Camera.</li>
+                    <li><span class="green-arrow">➜</span> Option to import signature from Gallery or Internal Storage.
+                    </li>
+                    <li><span class="green-arrow">➜</span> Options to edit the signature like Darken, Opacity, Blend,
+                        Flip, etc.</li>
+                </ul>
+            </div>
+            <div class="feature-img">
+                <img src="./images/feature-img4.png" alt="Scanning Feature">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="reviews-section" id="Reviews">
+        <h2>Our User's Review</h2>
+        <div class="reviews-container">
+            <div class="review-box">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "This is really one of the best apps for scanning, and I am using it from the very beginning of
+                    2021.
+                    But according to me, the recent update is not user-friendly. It's more time-consuming to create a
+                    PDF,
+                    and the filters are not good. Please shift it to the last version. That interface was amazing and
+                    user-friendly."
+                </p>
+                <div class="reviewer">
+                    <div>
+                        <strong>ANIK BANERJEE</strong>
+                        <span>14 February 2022</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "Best app for document scanning. I scanned 147 camera images directly to make one PDF.
+                    I had Adobe Scan for a very long time, and when I was scanning from that, it was just quitting
+                    unexpectedly!!
+                    Maybe it couldn't handle the load. But then I got to the Play Store and found this app. It was so
+                    smooth.
+                    Thank you guys. I scanned 147 pages into PDF very smoothly."
+                </p>
+                <div class="reviewer">
+                    <div>
+                        <strong>HARDIK SHARMA</strong>
+                        <span>12 April 2024</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "This application in my opinion is the best for scanning documents. Also it makes various options
+                    like rearranging pages in the pdf, highlighting and changing the colour for better clarity and also
+                    the best feature is that it detects the writing/printed part and crops out the unwanted part of the
+                    page (it is accurate 90% of the times). Only thing is that the number of ads should be reduced a
+                    bit. Other than that nothing to complain about. 👍🏻👍🏻"
+                </p>
+                <div class="reviewer">
+                    <div>
+                        <strong>Urzaan Vachha</strong>
+                        <span>5 May 2020</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "I love this app. The ads are unobtrusive and the document scanner tool is fast and accurate. It
+                    also gives the options of several different filters for the scanned page. This pdf app has sacved me
+                    multiple times. It is the ap to go for if speed and efficiency is needed. I was able to scan a
+                    100-page document complete with OCR text and filters in under an hour. On top of this all, it's made
+                    in India as well!"
+
+                </p>
+                <div class="reviewer">
+                    <div>
+                        <strong>Aditya Tomar</strong>
+                        <span>30 July 2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="Contact">
+        <h2>Contact Us</h2>
+        <div class="contact-line"></div>
+        <a>PLEASE SEND US YOUR QUERIES AND WE CAN HELP YOU BETTER</a>
+        <p>
+            <i class="fa-solid fa-address-card"></i>
+            contact@eatherinnovation.com
+        </p>
+    </section>
+</body>
+<footer class="footer">
+    <div class="footer-container">
+        <p>&copy; <span id="year"></span> Copyright DocScanner Powered by Aether Innovations Pvt. Ltd.</p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+</html>

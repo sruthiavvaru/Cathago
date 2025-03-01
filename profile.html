@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="profile-page">
+    <div class="profile-container">
+        <h1>User Profile</h1>
+        <div class="profile-info">
+            <div class="profile-field">
+                <span class="label">Name:</span>
+                <span id="profileName" class="value"></span>
+            </div>
+            <div class="profile-field">
+                <span class="label">Email:</span>
+                <span id="profileEmail" class="value"></span>
+            </div>
+            <div class="profile-field">
+                <span class="label">Available Credits:</span>
+                <span id="profileCredits" class="value"></span>
+            </div>
+            <div class="profile-field">
+                <span class="label">Daily Reset Time:</span>
+                <span id="dailyReset" class="value"></span>
+            </div>
+        </div>
+        <div class="actions">
+            <button id="requestCredits" class="btn-reset">Request More Credits</button>
+            <button id="logout" class="btn-logout">Logout</button>
+        </div>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+</html>
